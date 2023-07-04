@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mario <mario@student.42.fr>                +#+  +:+       +#+        */
+/*   By: magonzal <magonzal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 12:30:49 by mario             #+#    #+#             */
-/*   Updated: 2023/05/16 12:31:45 by mario            ###   ########.fr       */
+/*   Updated: 2023/07/04 18:07:05 by magonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ int main()
 	while (1)
 	{
 		std::cout << YELLOW << ">" << RESET;
+		if (!std::cin)
+			break ;
 		std::cin >> opt;
 		if(opt == "ADD")
 			book.add();

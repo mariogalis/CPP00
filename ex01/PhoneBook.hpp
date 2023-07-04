@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   PhoneBook.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mario <mario@student.42.fr>                +#+  +:+       +#+        */
+/*   By: magonzal <magonzal@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/11 13:08:09 by mario             #+#    #+#             */
-/*   Updated: 2023/05/16 12:07:40 by mario            ###   ########.fr       */
+/*   Updated: 2023/07/04 17:48:23 by magonzal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 class PhoneBook
 {
 private:
-    Contact     _book[7];
+    Contact     _book[8];
     int         _index;
 public:
     PhoneBook(void);
